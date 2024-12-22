@@ -13,7 +13,7 @@
     --bg-color: #080808;
     --second-bg-color: #131313;
     --text-color: white;
-    --main-color: rgb(9, 244, 154);
+    --main-color: rgb(51, 55, 158);
 }
 
 html{
@@ -91,6 +91,16 @@ section {
     justify-content: center;
     gap:15rem;
 }
+
+.blog_app a{
+    color: #080808;
+    margin: auto;
+}
+.to_do_list_app a {
+    color: #080808;
+    margin: auto;
+}
+
 
 .home-content {
     display: flex;
