@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./style/style.css">
     <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
     <title>Abdul's Portfolio website</title>
 </head>
@@ -179,26 +179,27 @@
     <section class="contact" id = "contact">
         <h2 class="heading">Contact <span>Me</span></h2>
 
-        <form action="">
+        <form >
             <div class = "input-group">
-                <div class="input-box">
-                    <input type="text"
-                    placeholder="Full Name">
 
-                    <input type="email" placeholder="Email">
+                <div class="input-box">
+
+                    <input type="text"
+                    placeholder="Full Name" name="name">
+
+                    <input type="email" placeholder="Email" name="email">
                 </div>
 
                 <div class="input-box">
-                    <input type="number" placeholder="Phone Number">
-                    <input type="text" placeholder="Subject">
-
-
+                    <input type="number" placeholder="Phone Number" name="phone">
+                    <input type="text" name="subject" placeholder="Subject" >
                 </div>
             </div>
 
             <div class="input-group-2">
-                <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
-                <input type="submit" value = "Send Message" class="btn">
+                <textarea name="message" id="" cols="50" rows="20" placeholder="Your Message" ></textarea>
+
+                <button formaction="/contactMe" formmethod="post"  type="submit" class="btn">Submit</button>
             </div>
         </form>
 
